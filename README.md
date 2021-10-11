@@ -9,7 +9,8 @@ message back to the client.
 
 The server should take command line arguments specifying a port number at runtime to run the server.
 
-#Example
+Example
+
 #./server 35400   
 
 35400 is the port number.
@@ -17,7 +18,8 @@ The server should take command line arguments specifying a port number at runtim
 The client takes commamd line arguments specifying a server name or IP address, the port on which to contact the server,
 the method to use {GET or PUT} and the path of the file.
 
-#Example
+Example
+
 #./client <server IP> <server port number> GET <filename>
   
   
